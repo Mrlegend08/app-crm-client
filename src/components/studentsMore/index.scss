@@ -1,0 +1,91 @@
+.student-more {
+  &__btn {
+    position: absolute !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 50% !important;
+    background-color: transparent !important;
+    right: 16px !important;
+    color: #607d8b !important;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.2s linear !important;
+    &:hover {
+      background-color: #eff2f3 !important;
+      transition: all 0.2s linear;
+    }
+    &:hover > .student-more__btn-text {
+      display: block;
+      transition: all 0.2s linear;
+    }
+  }
+  &__btn-text {
+    position: absolute;
+    left: 45px;
+    padding: 2px 9px;
+    display: none;
+    background-color: black;
+    border-radius: 7px;
+    font-size: 14px;
+    white-space: nowrap;
+    color: white;
+    z-index: 9;
+  }
+  &__btn-flex {
+    position: relative;
+    border: none !important;
+    outline: none !important;
+    border-radius: 50% !important;
+    background-color: transparent !important;
+    color: #607d8b !important;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.2s linear !important;
+    &:hover {
+      background-color: #eff2f3 !important;
+      transition: all 0.2s linear;
+    }
+    &:hover > .student-more__btn-flex-text {
+      display: block;
+      transition: all 0.2s linear;
+    }
+  }
+  &__btn-flex-text {
+    position: absolute;
+    top: 45px;
+    padding: 2px 9px;
+    display: none;
+    background-color: black;
+    border-radius: 7px;
+    font-size: 14px;
+    white-space: nowrap;
+    color: white;
+  }
+}
+
+.important-width {
+  width: 273px !important;
+}
+
+.important-width-two {
+  width: 290px !important;
+  &:hover{
+    background-color: transparent !important;
+  }
+}
+.student-more__flex-start{
+  width: 302px !important;
+}
+
+.size-input{
+  width: 32px !important;
+  height: 16px !important;
+}

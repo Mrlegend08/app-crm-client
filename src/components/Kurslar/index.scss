@@ -1,0 +1,21 @@
+.kurslar__item {
+  width: 254px;
+  height: 288px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  box-shadow: 0 3px 10px 1px rgb(180, 180, 180);
+}
+.kurslar__img-block {
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 190px;
+  background-color: #00796b;
+}
+
